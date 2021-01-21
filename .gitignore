@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@thijsBoet 
-github
-/
-gitignore
-3.2k
-113k61.2k
-Code
-Pull requests
-257
-Actions
-Projects
-Security
-Insights
-gitignore/Node.gitignore
-@ch4ot1c
-ch4ot1c Add .yarn/install-state.gz to Node.gitignore (#3407)
-…
-Latest commit 7293c14 on May 14, 2020
- History
- 58 contributors
-@stuartpb@shiftkey@SimonSiefke@TennyZhuang@venatoria@ro31337@Richienb@melonmanchan@gouthamve@jucrouzet@cheddar@arcresu
-116 lines (86 sloc)  1.77 KB
-  
 # Logs
 logs
 *.log
@@ -36,6 +5,20 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+
+# client
+/client/build
+
+.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -145,15 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
